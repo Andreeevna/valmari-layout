@@ -8,6 +8,18 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
 
 ul {
 	margin: 0;
@@ -30,4 +42,22 @@ a {
 	width: 100%;
 	overflow: hidden;
 	min-height: 100vh;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-green {
+	background-color: #55a630;
+	color: #ffff;
+	border: 1px solid transparent;
+}
+
+.bg-transparent {
+	background-color: transparent;
+	border: 1px solid #55a630;
+	color: #55a630;
 }
