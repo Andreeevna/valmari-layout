@@ -1,15 +1,24 @@
 import Swiper from 'swiper'
+import { Navigation, Pagination } from 'swiper/modules'
+
 import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 const swiper = new Swiper('.card-rainbow-slider', {
 	observer: true,
 	observeParents: true,
 	slidesPerView: 3,
 	spaceBetween: 53,
+	modules: [Navigation, Pagination],
 
 	navigation: {
-		nextEl: '.btn-next',
-		prevEl: '.btn-prev',
+		nextEl: '.rainbow-next',
+		prevEl: '.rainbow-prev',
+	},
+	pagination: {
+		el: '.rainbow-pagination',
+		type: 'bullets',
+		clickable: true,
 	},
 })
-console.log(swiper)
