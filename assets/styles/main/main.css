@@ -181,6 +181,7 @@
 
 .card-rainbow-slider {
 	padding-top: 77px;
+	overflow: hidden;
 }
 
 .swiper-slide {
