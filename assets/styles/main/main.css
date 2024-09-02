@@ -82,6 +82,11 @@
 	right: -2%;
 }
 
+.hero__text {
+	position: relative;
+	z-index: 1;
+}
+
 .hero__text span {
 	display: inline-block;
 	margin-bottom: 7px;
@@ -121,4 +126,42 @@
 	font-weight: 700;
 	height: 66px;
 	width: 285px;
+}
+
+/* courses */
+
+.courses .trigger-block {
+	margin-top: -20px;
+	position: relative;
+	z-index: 10;
+}
+
+.trigger-block {
+	padding: 44px 47px 44px 47px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+	box-shadow: 2px 2px 20px rgba(66, 66, 66, 0.15);
+	border-radius: 4px;
+}
+
+.trigger-block__item {
+	max-width: 200px;
+	text-align: center;
+}
+
+.trigger-block__item h3 {
+	margin-bottom: 6px;
+	font-size: 50px;
+	font-weight: 700;
+	color: #55a630;
+}
+
+.trigger-block__item span {
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 1.1;
+	text-align: center;
+	color: #424242;
 }
