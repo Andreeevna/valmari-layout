@@ -409,3 +409,111 @@
 .about-bloсk__content img {
 	margin-left: 44px;
 }
+
+/* training */
+
+.training {
+	padding-bottom: 175px;
+}
+
+.training__title {
+	margin-bottom: 76px;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #424242;
+}
+
+.training-block {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	row-gap: 57px;
+}
+
+.training-item {
+	position: relative;
+
+	width: 364px;
+	height: 260px;
+}
+
+.training-item::before {
+	content: '';
+	background: rgba(35, 35, 35, 0.8);
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.training-item_first {
+	width: 570px;
+	height: 280px;
+}
+
+.training-item_second {
+	width: 570px;
+	height: 280px;
+}
+
+.training-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.training-item__content {
+	position: relative;
+	padding: 35px 28px 35px 28px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+	color: #fff;
+	z-index: 1;
+}
+
+.training-item__content:hover {
+	justify-content: space-between;
+}
+
+.training-item__title {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.training-item__title__aft {
+	position: relative;
+	max-width: 395px;
+}
+
+.training-item__title__aft::after {
+	position: absolute;
+	content: url('./../../images/icons/Arrow-white-long.png');
+	left: 100%;
+	bottom: 0;
+}
+
+.training-item__content > div {
+	display: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.training-item__content:hover > div {
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+}
