@@ -484,6 +484,7 @@
 
 .training-item__content:hover {
 	justify-content: space-between;
+	cursor: pointer;
 }
 
 .training-item__title {
@@ -499,7 +500,7 @@
 	max-width: 395px;
 }
 
-.training-item__title__aft::after {
+.training-item__content:hover .training-item__title__aft::after {
 	position: absolute;
 	content: url('./../../images/icons/Arrow-white-long.png');
 	left: 100%;
