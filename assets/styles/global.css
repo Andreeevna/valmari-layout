@@ -50,6 +50,10 @@ a {
 	justify-content: center;
 }
 
+.btn:hover {
+	cursor: pointer;
+}
+
 .bg-green {
 	background-color: #55a630;
 	color: #ffff;

@@ -413,7 +413,7 @@
 /* training */
 
 .training {
-	padding-bottom: 175px;
+	padding-bottom: 155px;
 }
 
 .training__title {
@@ -520,3 +520,59 @@
 }
 
 /* modals */
+
+.modals {
+	padding-bottom: 178px;
+}
+
+.modals-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.modals-text {
+	max-width: 629px;
+}
+
+.modals-text__title {
+	margin-bottom: 75px;
+	color: #55a630;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.modals-text__desc {
+	margin-bottom: 80px;
+	font-size: 25px;
+	line-height: 1.2;
+}
+
+.modals-text__desc > p:first-of-type {
+	display: inline-block;
+	margin-bottom: 33px;
+}
+
+.modals-text__btn {
+	width: 385px;
+	height: 75px;
+	font-size: 23px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+
+.modals-img {
+	position: relative;
+	flex-shrink: 0;
+	width: 498px;
+	height: 459px;
+}
+
+.modals-img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
