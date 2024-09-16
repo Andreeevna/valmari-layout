@@ -680,3 +680,9 @@
 	height: 98px;
 	background-color: #55a630;
 }
+
+/* master slider */
+
+.master-classes-slider {
+	overflow: hidden;
+}

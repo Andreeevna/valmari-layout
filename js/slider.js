@@ -22,3 +22,21 @@ const swiper = new Swiper('.card-rainbow-slider', {
 		clickable: true,
 	},
 })
+
+const swiper2 = new Swiper('.master-classes-slider', {
+	observer: true,
+	observeParents: true,
+	slidesPerView: 2,
+	spaceBetween: 153,
+	modules: [Navigation, Pagination],
+
+	navigation: {
+		nextEl: '.rainbow-next',
+		prevEl: '.rainbow-prev',
+	},
+	pagination: {
+		el: '.rainbow-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
+})
