@@ -618,7 +618,14 @@
 	object-fit: cover;
 }
 
+.mk-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
 .master-classes__text {
+	flex-grow: 1;
 	display: flex;
 }
 
@@ -656,10 +663,11 @@
 }
 
 .text-right__pice {
+	flex-grow: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 132px;
+	/* height: 132px; */
 	font-size: 20px;
 	font-weight: 600;
 	background-color: #ecf9eb;
