@@ -301,7 +301,7 @@
 
 .swiper-btn {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	width: 24px;
 	height: 16px;
 
@@ -682,6 +682,13 @@
 }
 
 /* master slider */
+
+.swiper-wrapper {
+}
+
+.master-classes-slider__container {
+	position: relative;
+}
 
 .master-classes-slider {
 	overflow: hidden;
