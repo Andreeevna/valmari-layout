@@ -40,3 +40,21 @@ const swiper2 = new Swiper('.master-classes-slider', {
 		clickable: true,
 	},
 })
+
+const swiper3 = new Swiper('.sale-slider', {
+	observer: true,
+	observeParents: true,
+	slidesPerView: 3,
+	spaceBetween: 20,
+	modules: [Navigation, Pagination],
+
+	navigation: {
+		nextEl: '.rainbow-next',
+		prevEl: '.rainbow-prev',
+	},
+	pagination: {
+		el: '.rainbow-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
+})

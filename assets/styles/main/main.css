@@ -763,3 +763,28 @@
 	top: 0;
 	right: 29px;
 }
+
+/* sale */
+
+.sale {
+	padding-bottom: 174px;
+}
+
+.sale__title {
+	display: block;
+	margin-bottom: 75px;
+	font-size: 35px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+/*  sale slider */
+
+.sale-slider__container {
+	position: relative;
+}
+
+.sale-slider {
+	overflow: hidden;
+}
