@@ -788,3 +788,14 @@
 .sale-slider {
 	overflow: hidden;
 }
+
+/* feedback */
+
+.feedback {
+	padding-bottom: 175px;
+}
+
+.feedback__content {
+	background-color: #fff;
+	box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.2);
+}
