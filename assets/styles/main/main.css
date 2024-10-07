@@ -853,3 +853,28 @@
 	border: none;
 	background-color: #55a630;
 }
+
+/* footer */
+
+footer {
+	background-color: #424242;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-map {
+	position: relative;
+	width: 50%;
+}
+
+.footer-map__map {
+	width: 100%;
+	height: 100%;
+}
+
+.footer-contacts {
+	width: 50%;
+}
