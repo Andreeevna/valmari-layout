@@ -46,7 +46,6 @@
 .category-filter__list-item {
 	display: flex;
 	flex-grow: 1;
-	color: #55a630;
 }
 
 .category-filter__list-item a {
@@ -56,9 +55,14 @@
 	justify-content: center;
 	font-size: 18px;
 	line-height: 18px;
+	color: #424242;
+	transition: all 0.3s ease-in-out;
+}
+
+.category-filter__list-item a:hover {
+	color: #55a630;
 }
 
 .category-filter__list-item.list-item_active {
-	color: #424242;
 	background-color: #c7f8c2;
 }
