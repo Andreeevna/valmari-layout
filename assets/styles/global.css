@@ -132,3 +132,82 @@ a {
 	align-items: center;
 	justify-content: space-between;
 }
+
+/* footer */
+
+footer {
+	background-color: #424242;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-map {
+	position: relative;
+	width: 50%;
+}
+
+.footer-map__map {
+	width: 100%;
+	height: 100%;
+}
+
+.footer-contacts {
+	padding: 39px 65px;
+	width: 50%;
+}
+
+.footer-contacts__logo {
+	margin-bottom: 50px;
+	display: block;
+}
+
+.footer-contacts__logo img {
+	height: 80px;
+	width: 80px;
+}
+
+.footer-contacts__tel {
+	margin-bottom: 25px;
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer-contacts__address {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.footer-contacts__list {
+	margin-top: 84px;
+	width: 350px;
+	columns: 2;
+}
+
+.footer-contacts__list li {
+	margin-bottom: 20px;
+}
+
+.footer-contacts__list li a {
+	font-size: 18;
+	font-weight: 500;
+	color: #fff;
+}
+
+.footer-social {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.footer-politic {
+	margin-top: 30px;
+	color: #fff;
+	opacity: 0.7;
+}
